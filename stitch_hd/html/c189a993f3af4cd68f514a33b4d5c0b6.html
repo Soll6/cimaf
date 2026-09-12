@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>CIMAF Gabon | Bâtisseur d'Avenir Industriel</title><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-secondary-fixed": "#341100",
+          "on-secondary-fixed-variant": "#783200",
+          "tertiary-container": "#48566b",
+          "background": "#faf8ff",
+          "on-surface": "#131b2e",
+          "on-tertiary-fixed-variant": "#3a485c",
+          "on-surface-variant": "#424751",
+          "surface-container-high": "#e2e7ff",
+          "on-error": "#ffffff",
+          "inverse-primary": "#a5c8ff",
+          "on-secondary": "#ffffff",
+          "on-primary-container": "#acccff",
+          "primary": "#003f76",
+          "tertiary-fixed-dim": "#b9c7e0",
+          "on-tertiary-container": "#bdcbe4",
+          "on-primary-fixed-variant": "#004785",
+          "surface-variant": "#dae2fd",
+          "surface-dim": "#d2d9f4",
+          "surface-tint": "#185fa8",
+          "inverse-on-surface": "#eef0ff",
+          "surface-container-highest": "#dae2fd",
+          "outline-variant": "#c2c6d2",
+          "secondary-fixed": "#ffdbca",
+          "outline": "#727782",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#ffb690",
+          "primary-fixed-dim": "#a5c8ff",
+          "on-primary-fixed": "#001c3a",
+          "on-background": "#131b2e",
+          "primary-container": "#00569e",
+          "surface-container": "#eaedff",
+          "surface-bright": "#faf8ff",
+          "on-tertiary": "#ffffff",
+          "surface-container-lowest": "#ffffff",
+          "on-tertiary-fixed": "#0d1c2f",
+          "secondary-container": "#fd771c",
+          "tertiary": "#313f53",
+          "surface": "#faf8ff",
+          "secondary": "#9d4300",
+          "on-primary": "#ffffff",
+          "surface-container-low": "#f2f3ff",
+          "on-secondary-container": "#5c2400",
+          "primary-fixed": "#d4e3ff",
+          "inverse-surface": "#283044",
+          "error": "#ba1a1a",
+          "tertiary-fixed": "#d5e3fd",
+          "on-error-container": "#93000a"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.125rem",
+          "lg": "0.25rem",
+          "xl": "0.5rem",
+          "full": "0.75rem"
+        },
+        "spacing": {
+          "space-xs": "0.25rem",
+          "gutter": "1.5rem",
+          "space-sm": "0.5rem",
+          "margin-mobile": "1.25rem",
+          "space-xl": "2.5rem",
+          "margin": "3rem",
+          "space-lg": "1.5rem",
+          "gutter-mobile": "1rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-hero": [
+            "Montserrat"
+          ],
+          "headline-sm": [
+            "Montserrat"
+          ],
+          "headline-lg-mobile": [
+            "Montserrat"
+          ],
+          "title-md": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-xl": [
+            "Montserrat"
+          ],
+          "body-sm": [
+            "Plus Jakarta Sans"
+          ],
+          "label-technical": [
+            "Montserrat"
+          ],
+          "body-lg": [
+            "Plus Jakarta Sans"
+          ],
+          "label-md": [
+            "Plus Jakarta Sans"
+          ],
+          "display-hero-mobile": [
+            "Montserrat"
+          ],
+          "label-lg": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-xl-mobile": [
+            "Montserrat"
+          ],
+          "headline-lg": [
+            "Montserrat"
+          ],
+          "body-md": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-md": [
+            "Montserrat"
+          ]
+        },
+        "fontSize": {
+          "display-hero": [
+            "56px",
+            {
+              "lineHeight": "64px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "800"
+            }
+          ],
+          "headline-sm": [
+            "20px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-lg-mobile": [
+            "24px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "700"
+            }
+          ],
+          "title-md": [
+            "18px",
+            {
+              "lineHeight": "26px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-xl": [
+            "40px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.015em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-sm": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ],
+          "label-technical": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "400"
+            }
+          ],
+          "label-md": [
+            "12px",
+            {
+              "lineHeight": "16px",
+              "letterSpacing": "0.04em",
+              "fontWeight": "600"
+            }
+          ],
+          "display-hero-mobile": [
+            "36px",
+            {
+              "lineHeight": "44px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "800"
+            }
+          ],
+          "label-lg": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-xl-mobile": [
+            "28px",
+            {
+              "lineHeight": "36px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "32px",
+            {
+              "lineHeight": "40px",
+              "fontWeight": "700"
+            }
+          ],
+          "body-md": [
+            "16px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-md": [
+            "24px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "600"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary text-on-primary py-1.5 px-6 lg:px-12"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between font-label-md text-label-md tracking-wider"><div class="flex items-center gap-6"><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary-fixed text-[16px]">factory</span><span class="tracking-wide">Usine d'Owendo • Franceville • Ntoum</span></span><span class="hidden md:inline-flex items-center gap-1.5 text-surface-container-high"><span class="material-symbols-outlined text-[16px]">call</span><span>+241 11 70 58 00</span></span></div><div class="flex items-center gap-5"><a class="flex items-center gap-1.5 text-on-primary hover:text-secondary-fixed transition-colors" data-path="espace-pro-et-ecoles" href="#"><span class="material-symbols-outlined text-[16px]">school</span><span class="font-label-technical text-label-technical uppercase">Espace Pro &amp; Écoles</span></a><div class="flex items-center rounded-DEFAULT bg-primary-container/60 p-0.5 font-label-technical text-label-technical"><button class="px-2 py-0.5 rounded-DEFAULT bg-surface-container-lowest text-primary font-bold shadow-sm">FR</button><button class="px-2 py-0.5 rounded-DEFAULT text-on-primary hover:text-secondary-fixed transition-colors">EN</button></div></div></div></div><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4"><div class="flex items-center gap-3"><a class="flex items-center gap-3" data-path="accueil" href="#"><img alt="cimaf_logo.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U39UXltmghIxou9DUsz5tnmvHPjCIIKmBSAI-bA4zRtz_rIhAv-AihN6FYzonj4NdPH2I6b5n_3xb8ihFOHTbWly-zMAGYgfZxu_7sxsnKDaxDMeILSwSP67I3CdyHXIMeUYu0lU1kEiM5YAllrYmHJvZZB4xDDeDq2XANyo5Jg2m4g8gSa_OhDcpSc9J1vWrfc18QQsz18meRHwUTBbDJ8XWRTo9pbo6DB7OGtwiyC1NDiOx7vrnEvT_QClKiwJfbTbRDeh9W"/><div class="hidden sm:flex flex-col"><span class="font-headline-sm text-headline-sm font-bold text-primary tracking-tight">CIMAF</span><span class="font-label-technical text-label-technical tracking-widest text-secondary uppercase">Gabon</span></div></a></div><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors py-2 text-primary font-bold" data-path="accueil" href="#">Accueil</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="l-entreprise" href="#">L'Entreprise</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="nos-produits" href="#">Nos Produits</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="realisations" href="#">Réalisations</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="rse-et-engagement" href="#">RSE &amp; Engagement</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="carrieres" href="#">Carrières</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-3"><a class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-DEFAULT bg-secondary text-on-secondary font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-on-secondary-fixed-variant transition-all shadow-[0_2px_8px_rgba(157,67,0,0.2)]" data-path="programme-ecoles-et-vocations" href="#"><span class="material-symbols-outlined text-[18px]">backpack</span><span>Écoles &amp; Vocations</span></a><a class="hidden lg:inline-flex items-center px-4 py-2 rounded-DEFAULT bg-primary text-on-primary font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-on-primary-fixed-variant transition-all shadow-[0_2px_8px_rgba(0,63,118,0.2)]" data-path="demande-de-devis" href="#">Demande de Devis</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-background min-h-[calc(100vh-320px)]"><div class="flex flex-col w-full">
+<!-- EN-TÊTE INSTITUTIONNEL & HERO ARCHITECTURAL -->
+<section class="relative w-full bg-surface-container-lowest overflow-hidden">
+<div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-20%,rgba(0,86,158,0.12),rgba(250,248,255,0))] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pt-8 pb-16 relative z-10">
+<!-- Breadcrumb -->
+<nav class="flex items-center gap-2 mb-8 font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="accueil" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span>Accueil</span>
+</a>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="text-primary font-semibold">L'Entreprise</span>
+</nav>
+<!-- Headline & Introduction -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+<div class="lg:col-span-8 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container-high rounded-full text-primary font-label-technical text-label-technical tracking-wider uppercase">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span>Pilier de la Souveraineté Nationale • Depuis 2015</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-primary tracking-tight">
+            Bâtir le Gabon moderne : <br class="hidden sm:inline"/>
+<span class="text-secondary">Une décennie</span> d'engagement industriel et citoyen.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl leading-relaxed">
+            Filiale stratégique du groupe Ciments de l'Afrique, CIMAF Gabon s'est imposée dès sa création comme l'artisan majeur des grands chantiers républicains. À travers des investissements industriels massifs à Owendo, Ntoum et Franceville, nous transformons les ressources régionales en ciments de classe mondiale certifiés NF EN 197-1.
+          </p>
+</div>
+<div class="lg:col-span-4 flex lg:flex-col gap-4 justify-start lg:justify-end">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary text-on-primary rounded-DEFAULT font-label-lg text-label-lg font-bold uppercase tracking-wider shadow-md hover:bg-on-primary-fixed-variant transition-all" href="#gouvernance">
+<span class="material-symbols-outlined text-[20px]">corporate_fare</span>
+<span>Direction &amp; Vision</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-surface-container-high text-primary rounded-DEFAULT font-label-lg text-label-lg font-bold uppercase tracking-wider hover:bg-surface-variant transition-all" href="#implantations">
+<span class="material-symbols-outlined text-[20px]">hub</span>
+<span>Nos 3 Sites Stratégiques</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Editorial Architectural Visual Band -->
+<div class="max-w-7xl mx-auto px-6 lg:px-12 pb-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="relative h-72 rounded-DEFAULT overflow-hidden shadow-sm group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="High-angle industrial photography of the modern CIMAF cement factory in Owendo Gabon with towering vertical silos, clinker conveyor belts, and deep blue sky under harsh tropical sunlight, clean geometric concrete structures, professional engineering perspective" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBMj8cZNBeXQHj6fLnbPhfg7ifnATq1ATquackHGwHxM7BoWwf2EPQp70DH9wJwyoChfmzC-zsdLt-DS6I24byi9yjWF38neIFiioclrPwhTEyShgxm3pDARGlJ8ECzYnoU3QsCT5c26-BSiUfgoACDFKbvZqRBRvT_1lLQCDdvqx0rrq-Gw7pPZibm7QRFy6Me30Kz6K3LxI4cy03nLQbsEWqg9wXQn4kDpxPWK1GPaK071ubdkRy"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/30 to-transparent p-6 flex flex-col justify-end text-on-primary">
+<span class="font-label-technical text-label-technical uppercase tracking-widest text-secondary-fixed">Usine Principale</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">Complexe Industriel d'Owendo</h3>
+</div>
+</div>
+<div class="relative h-72 rounded-DEFAULT overflow-hidden shadow-sm group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Close-up of automated industrial quality testing laboratory at cement production plant, high-precision robotic analysis instruments, digital telemetry screens with molecular stress indicators, lab technicians in safety gear inspecting raw material samples" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB18xAgKjFk5RC22Pk9DNrlssiPzG2neIonVjhDkdeVvWCO2ciII7WaVVszWmY3Oc-wFRGczqoTAR59_itSD2svibRakkC-7B-XuK5QPTDljs6MxLGZAmU3Cxy5EHk7U7es8IeUstlL4TfmemQEbkiteLCR92bMRKJWXH_yUWCn1_45CRvYM05N1OKqGL91eMMQ_dbkKW02AYBUXd2ZFgD2eRze5YGOpX1g3ke9shqIu2RVEiXgUtg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/30 to-transparent p-6 flex flex-col justify-end text-on-primary">
+<span class="font-label-technical text-label-technical uppercase tracking-widest text-secondary-fixed">R&amp;D &amp; Contrôle</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">Laboratoire Certifié 24/7</h3>
+</div>
+</div>
+<div class="relative h-72 rounded-DEFAULT overflow-hidden shadow-sm group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Heavy civil engineering infrastructure project in Gabon, Kinguele Aval hydro-electric dam under massive concrete casting using high-performance hydraulic cement, equatorial river landscape in background with civil engineering cranes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaMkw_W04vpMa5IilTgfyrehKmc_8Sqxov5aCSAnhPkPDVib8bcPIN32i6iWf1JmJN3gt-9QsteIAT0Sd3urrhONqE2rpOHy3Ale07ASADVhRtngjRLgLJgJHc4SAxHi7Jy7cRmASSDKLHdxY9Kaygm-ci35G1qwYSUuNO1JyXQ0XYnVIHEjNaTjx55rFp2zbr605QN_cQhBASXAqTRWmaWSTCE4EoBO7ryFR_58wIeIvCyk_F1rMB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/30 to-transparent p-6 flex flex-col justify-end text-on-primary">
+<span class="font-label-technical text-label-technical uppercase tracking-widest text-secondary-fixed">Grands Chantiers</span>
+<h3 class="font-headline-sm text-headline-sm font-bold">Barrage de Kinguélé Aval</h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CHIFFRES CLÉS : IMPACT INDUSTRIEL ET SOCIO-ÉCONOMIQUE -->
+<section class="w-full bg-surface-container py-16">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-technical text-label-technical text-secondary uppercase tracking-widest block mb-2">Performances &amp; Empreinte</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold">Les indicateurs de notre solidité</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Un levier économique durable au service des infrastructures souveraines et de l'emploi gabonais.
+        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Stat 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-secondary"></div>
+<div class="flex items-center justify-between text-secondary mb-4">
+<span class="material-symbols-outlined text-[32px]">speed</span>
+<span class="font-label-technical text-label-technical bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-DEFAULT">Capacité</span>
+</div>
+<div class="font-display-hero text-display-hero text-primary font-extrabold tracking-tight">500k+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Tonnes / an</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-3">
+            Capacité nominale de broyage garantissant l'autosuffisance du marché national et la stabilité des cours.
+          </p>
+</div>
+<!-- Stat 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-primary"></div>
+<div class="flex items-center justify-between text-primary mb-4">
+<span class="material-symbols-outlined text-[32px]">groups</span>
+<span class="font-label-technical text-label-technical bg-surface-container-high text-primary px-2 py-0.5 rounded-DEFAULT">RH</span>
+</div>
+<div class="font-display-hero text-display-hero text-primary font-extrabold tracking-tight">400+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Emplois Directs &amp; Indirects</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-3">
+            Un effectif gabonais à plus de 92%, avec des programmes continus de transfert d'expertise technique.
+          </p>
+</div>
+<!-- Stat 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-secondary"></div>
+<div class="flex items-center justify-between text-secondary mb-4">
+<span class="material-symbols-outlined text-[32px]">account_balance</span>
+<span class="font-label-technical text-label-technical bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-DEFAULT">Investissements</span>
+</div>
+<div class="font-display-hero text-display-hero text-primary font-extrabold tracking-tight">65+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Milliards FCFA</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-3">
+            Capitaux injectés depuis 2015 dans la modernisation des équipements, la décarbonation et les terminaux.
+          </p>
+</div>
+<!-- Stat 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-primary"></div>
+<div class="flex items-center justify-between text-primary mb-4">
+<span class="material-symbols-outlined text-[32px]">domain</span>
+<span class="font-label-technical text-label-technical bg-surface-container-high text-primary px-2 py-0.5 rounded-DEFAULT">Maillage</span>
+</div>
+<div class="font-display-hero text-display-hero text-primary font-extrabold tracking-tight">03</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Sites Stratégiques</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-3">
+            Owendo, Ntoum et Franceville articulés en réseau multimodal pour desservir l'ensemble des 9 provinces.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- HISTOIRE & FRISE CHRONOLOGIQUE -->
+<section class="w-full bg-surface-container-lowest py-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="max-w-3xl mb-16">
+<span class="font-label-technical text-label-technical text-secondary uppercase tracking-widest block mb-2">Trajectoire Industrielle</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold">Une décennie d'audace, de rigueur et d'expansion continue</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4">
+          De l'inauguration solennelle de l'usine d'Owendo aux chantiers d'envergure nationale, découvrez les jalons qui ont façonné le leader gabonais du liant hydraulique.
+        </p>
+</div>
+<!-- Timeline Component -->
+<div class="relative">
+<!-- Connecting Line -->
+<div class="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-surface-container -translate-y-1/2 z-0"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
+<!-- Étape 1 : 2015 -->
+<div class="bg-surface-container-low p-6 rounded-DEFAULT shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-xl text-headline-xl font-extrabold text-primary">2015</span>
+<span class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[20px]">foundation</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">Pose de la première pierre &amp; Usine d'Owendo</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Inauguration officielle du site industriel ultramoderne d'Owendo en présence des plus hautes autorités de l'État, posant la première pierre de l'autonomie cimentière gabonaise.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center gap-2 text-primary font-label-technical text-label-technical uppercase">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Lancement Opérationnel</span>
+</div>
+</div>
+<!-- Étape 2 : 2018 -->
+<div class="bg-surface-container-low p-6 rounded-DEFAULT shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-xl text-headline-xl font-extrabold text-secondary">2018</span>
+<span class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[20px]">military_tech</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">Certification NF EN 197-1 &amp; Homologation Grands Projets</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Reconnaissance internationale des ciments CPJ 35 et CPJ 45. Homologation prioritaire pour les chantiers de voiries d'État et des infrastructures portuaires d'Owendo.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center gap-2 text-secondary font-label-technical text-label-technical uppercase">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Conformité Européenne</span>
+</div>
+</div>
+<!-- Étape 3 : 2021 -->
+<div class="bg-surface-container-low p-6 rounded-DEFAULT shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-xl text-headline-xl font-extrabold text-primary">2021</span>
+<span class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2">Maillage Territorial à Franceville et Ntoum</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Création de terminaux de stockage avancés connectés au chemin de fer Transgabonais, mettant fin aux pénuries récurrentes dans l'intérieur du pays.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/30 flex items-center gap-2 text-primary font-label-technical text-label-technical uppercase">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Continuité Logistique</span>
+</div>
+</div>
+<!-- Étape 4 : 2024-2026 -->
+<div class="bg-primary text-on-primary p-6 rounded-DEFAULT shadow-md flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-headline-xl text-headline-xl font-extrabold text-secondary-fixed">2024-2026</span>
+<span class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[20px]">eco</span>
+</span>
+</div>
+<h3 class="font-title-md text-title-md font-bold text-on-primary mb-2">Transition Bas-Carbone &amp; Kinguélé Aval</h3>
+<p class="font-body-sm text-body-sm text-surface-container-high leading-relaxed">
+                Nouvelles capacités de broyage, développement des formulations écologiques à empreinte carbone diminuée de 25% et fourniture exclusive du chantier hydroélectrique majeur.
+              </p>
+</div>
+<div class="mt-6 pt-4 border-t border-on-primary/20 flex items-center gap-2 text-secondary-fixed font-label-technical text-label-technical uppercase">
+<span class="material-symbols-outlined text-[16px]">autorenew</span>
+<span>Industrie du Futur</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MISSIONS & VALEURS CARDINALE -->
+<section class="w-full bg-surface py-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="font-label-technical text-label-technical text-secondary uppercase tracking-widest block mb-2">Charte Fondatrice</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold">Quatre piliers guidant notre action industrielle</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          Construire de manière responsable exige une symbiose absolue entre souveraineté technologique, exigence QHSE et développement des talents.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Valeur 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm flex gap-6 items-start">
+<div class="w-14 h-14 shrink-0 rounded-DEFAULT bg-surface-container-high text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[32px]">shield</span>
+</div>
+<div class="space-y-2">
+<span class="font-label-technical text-label-technical text-secondary uppercase font-bold tracking-wider">01. Sécurité Nationale</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Souveraineté Industrielle &amp; Stocks Stratégiques</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              En réduisant substantiellement la dépendance aux flux d'importation maritime, CIMAF Gabon protège les chantiers publics et privés contre la volatilité des marchés extérieurs grâce à un stockage tampon permanent de clinker et de ciments prêts à l'expédition.
+            </p>
+</div>
+</div>
+<!-- Valeur 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm flex gap-6 items-start">
+<div class="w-14 h-14 shrink-0 rounded-DEFAULT bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[32px]">biotech</span>
+</div>
+<div class="space-y-2">
+<span class="font-label-technical text-label-technical text-secondary uppercase font-bold tracking-wider">02. Exigence Technique</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Rigueur &amp; Qualité Invariable</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Notre banc d'essai physico-chimique robotisé opère 24 heures sur 24 à Owendo. Chaque lot de CPJ 35, CPJ 45 et CEM II fait l'objet de tests de compression à 2, 7 et 28 jours garantissant des performances mécaniques supérieures aux exigences réglementaires.
+            </p>
+</div>
+</div>
+<!-- Valeur 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm flex gap-6 items-start">
+<div class="w-14 h-14 shrink-0 rounded-DEFAULT bg-surface-container-high text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[32px]">psychology</span>
+</div>
+<div class="space-y-2">
+<span class="font-label-technical text-label-technical text-secondary uppercase font-bold tracking-wider">03. Valorisation Locale</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Développement du Capital Humain Gabonais</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Nous soutenons les vocations techniques de la jeunesse à travers l'alternance, l'accueil des stagiaires des écoles polytechniques de Masuku et de Libreville, et un plan d'avancement interne plaçant les cadres nationaux aux postes de responsabilité opérationnelle.
+            </p>
+</div>
+</div>
+<!-- Valeur 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-DEFAULT shadow-sm flex gap-6 items-start">
+<div class="w-14 h-14 shrink-0 rounded-DEFAULT bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[32px]">nest_eco_leaf</span>
+</div>
+<div class="space-y-2">
+<span class="font-label-technical text-label-technical text-secondary uppercase font-bold tracking-wider">04. Responsabilité Planétaire</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Transition Écologique &amp; Bas-Carbone</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Déploiement de broyeurs à haut rendement énergétique réduisant la consommation électrique spécifique de 18% et intégration optimisée d'ajouts cimentaires pouzzolaniques pour concevoir des liants écologiques adaptés au climat équatorial.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CARTE & IMPLANTATIONS STRATÉGIQUES -->
+<section class="w-full bg-surface-container py-20" id="implantations">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-8">
+<div>
+<span class="font-label-technical text-label-technical text-secondary uppercase tracking-widest block mb-2">Maillage National</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold">Trois ancrages stratégiques au cœur de l'économie</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4">
+              L'intégration de nos implantations industrielles et logistiques garantit un approvisionnement sans rupture, de la façade atlantique aux plateaux du Haut-Ogooué.
+            </p>
+</div>
+<!-- Implantations List -->
+<div class="space-y-4">
+<!-- Site 1 -->
+<div class="p-5 bg-surface-container-lowest rounded-DEFAULT shadow-sm hover:shadow-md transition-all">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0 mt-0.5">factory</span>
+<div>
+<div class="flex items-center gap-2">
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Usine Principale d'Owendo</h4>
+<span class="font-label-technical text-label-technical bg-surface-container-high text-primary px-2 py-0.5 rounded-DEFAULT">Estuaire</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                    Bord de mer, connexion directe au terminal maritime de minerais et embranchement direct au réseau ferroviaire SETRAG.
+                  </p>
+</div>
+</div>
+</div>
+<!-- Site 2 -->
+<div class="p-5 bg-surface-container-lowest rounded-DEFAULT shadow-sm hover:shadow-md transition-all">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[24px] shrink-0 mt-0.5">warehouse</span>
+<div>
+<div class="flex items-center gap-2">
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Dépôt Régional de Franceville</h4>
+<span class="font-label-technical text-label-technical bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-DEFAULT">Haut-Ogooué</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                    Hub ferroviaire de distribution de pointe assurant la livraison régulière des chantiers miniers, publics et de l'Est gabonais.
+                  </p>
+</div>
+</div>
+</div>
+<!-- Site 3 -->
+<div class="p-5 bg-surface-container-lowest rounded-DEFAULT shadow-sm hover:shadow-md transition-all">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0 mt-0.5">local_shipping</span>
+<div>
+<div class="flex items-center gap-2">
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Plateforme Logistique de Ntoum</h4>
+<span class="font-label-technical text-label-technical bg-surface-container-high text-primary px-2 py-0.5 rounded-DEFAULT">Route Nationale 1</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                    Centre de dispatching express pour camions plateaux et citernes vrac, fluidifiant l'axe logistique de la Transgabonaise.
+                  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Visual Map Display -->
+<div class="lg:col-span-7 space-y-4">
+<div class="w-full h-96 rounded-DEFAULT shadow-md bg-cover bg-center relative overflow-hidden" data-location="Owendo, Gabon" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBUqBJZ-KDYGF-bQ1OW4EcTVBB160Rsq2tfk5JIcc2XvIWUhv_WSl1pne0SbgcXSk81S29KDAg8GzWq4ovGG_j5YfGfUXrr5AKc4KF4kO6gwP8aIzDNfN11WXKag4500qW4r_W0SgO-kv63HZBogfR6wNPrwtGGzQ_hEw8VqTfc4FtwKH6OaCKlZ1PbtpXsBDOKFrJiyqCh3p-P-qg61eHYF3UjXj18aNxws7Ce2BhGlNII8euuL72F')">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 p-4 bg-surface-container-lowest/90 backdrop-blur-md rounded-DEFAULT shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[28px]">pin_drop</span>
+<div>
+<span class="font-headline-sm text-headline-sm font-bold text-primary block">Zone Industrielle d'Owendo</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Latitude 0.2974° N, Longitude 9.5011° E • Libreville Port</span>
+</div>
+</div>
+<a class="px-3 py-1.5 bg-primary text-on-primary rounded-DEFAULT font-label-technical text-label-technical uppercase font-bold hover:bg-on-primary-fixed-variant transition-colors" data-path="contact" href="#">
+                Itinéraire
+              </a>
+</div>
+</div>
+<!-- Data Bar -->
+<div class="grid grid-cols-3 gap-4 text-center">
+<div class="bg-surface-container-lowest p-3 rounded-DEFAULT shadow-sm">
+<span class="font-label-technical text-label-technical text-outline uppercase block">Trafic Maritime</span>
+<span class="font-title-md text-title-md font-bold text-primary">100% Dédié</span>
+</div>
+<div class="bg-surface-container-lowest p-3 rounded-DEFAULT shadow-sm">
+<span class="font-label-technical text-label-technical text-outline uppercase block">Rotation Wagons</span>
+<span class="font-title-md text-title-md font-bold text-secondary">48h Moyenne</span>
+</div>
+<div class="bg-surface-container-lowest p-3 rounded-DEFAULT shadow-sm">
+<span class="font-label-technical text-label-technical text-outline uppercase block">Couverture</span>
+<span class="font-title-md text-title-md font-bold text-primary">9 Provinces</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- GOUVERNANCE, DIRECTION & POLITIQUE QHSE -->
+<section class="w-full bg-surface-container-lowest py-20" id="gouvernance">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Directorial Message -->
+<div class="bg-surface-container-low rounded-DEFAULT p-8 lg:p-12 mb-16 shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-4">
+<div class="relative rounded-DEFAULT overflow-hidden shadow-sm aspect-[4/5] max-w-sm mx-auto lg:max-w-none">
+<img class="w-full h-full object-cover" data-alt="Executive corporate portrait of CIMAF Gabon Managing Director, professional African business leader in a tailored dark blue suit with an industrial manufacturing facility softly blurred in the backdrop, warm confident natural expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWNctfXoiK--kHhHZcoQVLE9I3lO4WziTPPMny52sCxaRdN71jOPuT4tEagiEINP5WfW4rXjUgAEBIxbbfAjRXKksytoSIFi4gaEs_Yw0j2SrTPz5Wa-eQ4iEPIau8yK6A1EYpCn_1EiU1DO2iCCyZju0LC0FFs6z_nUScaB52XBQ6D3iyUgUpImTJyNzJPEHKvqjPPK1D5gJ2FMlJQ_N7LpxMzIbH4bz-BZxm-uLZp0QjpLnxySli"/>
+<div class="absolute bottom-0 left-0 right-0 bg-primary/90 p-4 text-on-primary text-center">
+<span class="font-headline-sm text-headline-sm font-bold block">Direction Générale</span>
+<span class="font-label-technical text-label-technical uppercase tracking-wider text-secondary-fixed">CIMAF Gabon</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-8 space-y-6">
+<div class="inline-flex items-center gap-2 text-secondary font-label-technical text-label-technical uppercase tracking-widest">
+<span class="material-symbols-outlined text-[18px]">format_quote</span>
+<span>Vision Stratégique</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold">
+              « Notre boussole : la fierté d'édifier des ouvrages durables qui traverseront les générations. »
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Depuis 2015, CIMAF Gabon n'a jamais dévié de sa mission première : offrir aux bâtisseurs de notre pays un liant d'une constance irréprochable, manufacturé sur le sol gabonais par des compétences nationales. En franchissant le cap des dix années d'opération, nous renouvelons notre engagement auprès de l'État et des entreprises partenaires.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Nous continuons d'investir avec audace dans l'usine intelligente, la sécurisation logistique des provinces de l'Ogooué et la formation pointue de notre jeunesse. Construire le Gabon de demain est un privilège que nous honorons chaque jour à chaque coulée de béton.
+            </p>
+<div class="pt-4 flex flex-wrap items-center justify-between gap-4 border-t border-outline-variant/30">
+<div>
+<span class="font-title-md text-title-md font-bold text-primary block">Comité Exécutif CIMAF Gabon</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Direction Générale &amp; Directoire Technique</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[32px]">verified_user</span>
+<span class="font-label-technical text-label-technical uppercase text-on-surface font-semibold">Gouvernance Audité ISO 9001</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- QHSE Pillars -->
+<div class="space-y-6">
+<div class="text-left">
+<span class="font-label-technical text-label-technical text-secondary uppercase tracking-widest block mb-1">Sécurité &amp; Conformité</span>
+<h3 class="font-headline-lg text-headline-lg text-primary font-bold">Politique Qualité, Hygiène, Sécurité et Environnement (QHSE)</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 bg-surface-container rounded-DEFAULT space-y-3">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-[28px]">health_and_safety</span>
+<h4 class="font-title-md text-title-md font-bold">Objectif Zéro Accident</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Culture proactive du risque, dotation systématique des EPI normés, protocoles de cadenassage LOTO stricts et audits sécurité quotidiens sur les lignes de conditionnement.
+            </p>
+</div>
+<div class="p-6 bg-surface-container rounded-DEFAULT space-y-3">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-[28px]">filter_vintage</span>
+<h4 class="font-title-md text-title-md font-bold">Captage des Poussières</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Installation de filtres à manches de dernière génération réduisant les rejets particulaires sous le seuil de 10 mg/Nm³, bien en-deçà des exigences environnementales gabonaises.
+            </p>
+</div>
+<div class="p-6 bg-surface-container rounded-DEFAULT space-y-3">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-[28px]">water_drop</span>
+<h4 class="font-title-md text-title-md font-bold">Gestion Raisonnée de l'Eau</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Circuit fermé de refroidissement des broyeurs et bassins de décantation des eaux de ruissellement pour une préservation intégrale du milieu estuarien d'Owendo.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BANNIÈRE CTA INSTITUTIONNEL -->
+<section class="w-full bg-primary text-on-primary py-16 relative overflow-hidden">
+<div class="absolute -right-24 -bottom-24 w-96 h-96 bg-primary-container rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 space-y-4">
+<span class="inline-flex items-center gap-2 font-label-technical text-label-technical uppercase tracking-widest text-secondary-fixed bg-primary-container/70 px-3 py-1 rounded-DEFAULT">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+<span>Documentation Institutionnelle 2026</span>
+</span>
+<h2 class="font-headline-xl text-headline-xl text-on-primary font-extrabold tracking-tight">
+            Consultez le bilan complet et participez à notre aventure industrielle.
+          </h2>
+<p class="font-body-md text-body-md text-surface-container-high max-w-2xl leading-relaxed">
+            Téléchargez le dossier institutionnel détaillant les bilans d'activités, nos spécifications techniques et les engagements sociétaux, ou postulez directement au sein de notre pôle technique.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-4 justify-end">
+<a class="inline-flex items-center justify-center gap-3 px-6 py-4 bg-secondary text-on-secondary font-label-lg text-label-lg font-bold uppercase tracking-wider rounded-DEFAULT hover:bg-on-secondary-fixed-variant transition-all shadow-md" download="CIMAF_Gabon_Plaquette_2026.pdf" href="#">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span>Plaquette Institutionnelle (PDF)</span>
+</a>
+<a class="inline-flex items-center justify-center gap-3 px-6 py-4 bg-surface-container-lowest text-primary font-label-lg text-label-lg font-bold uppercase tracking-wider rounded-DEFAULT hover:bg-surface-container-high transition-all shadow-md" data-path="carrieres" href="#">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+<span>Rejoindre Nos Équipes</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Micro-interaction: Dynamic counter animation for key statistics
+  document.addEventListener('DOMContentLoaded', () => {
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100', 'translate-y-0');
+          entry.target.classList.remove('opacity-0', 'translate-y-4');
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, { threshold: 0.15 });
+    document.querySelectorAll('.group, .timeline-item').forEach(el => {
+      observer.observe(el);
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low text-on-surface pt-16 pb-8 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12"><div class="space-y-4"><div class="flex items-center gap-2"><span class="font-headline-md text-headline-md font-extrabold text-primary">CIMAF</span><span class="font-label-technical text-label-technical tracking-widest text-secondary uppercase bg-secondary-fixed px-2 py-0.5 rounded-DEFAULT">Gabon</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Opérateur industriel de référence depuis 2015, CIMAF Gabon développe des ciments de haute qualité conformes aux normes internationales pour édifier les infrastructures souveraines de la République Gabonaise.</p><div class="pt-2 flex flex-wrap gap-2"><span class="font-label-technical text-label-technical uppercase bg-surface-container-high text-primary px-2 py-1 rounded-DEFAULT">ISO 9001</span><span class="font-label-technical text-label-technical uppercase bg-surface-container-high text-primary px-2 py-1 rounded-DEFAULT">NM 10.1.004</span><span class="font-label-technical text-label-technical uppercase bg-surface-container-high text-primary px-2 py-1 rounded-DEFAULT">Norme EN 197-1</span></div></div><div class="space-y-3"><h4 class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight mb-4">Navigation Industrielle</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a data-path="l-entreprise" href="#">Histoire &amp; Direction Générale</a></li><li class="hover:text-primary transition-colors"><a data-path="nos-produits" href="#">Gamme Ciments (CPJ 35, CPJ 45, CEM II)</a></li><li class="hover:text-primary transition-colors"><a data-path="realisations" href="#">Chantier Barrage de Kinguélé Aval</a></li><li class="hover:text-primary transition-colors"><a data-path="realisations" href="#">Port Minéralier d'Owendo &amp; Transgabonaise</a></li><li class="hover:text-primary transition-colors"><a data-path="carrieres" href="#">Rejoindre nos Équipes Techniques</a></li></ul></div><div class="space-y-3"><h4 class="font-headline-sm text-headline-sm text-secondary font-bold tracking-tight mb-4">RSE &amp; Vocations</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-secondary transition-colors"><a data-path="programme-ecoles-et-vocations" href="#">Charte 'Bâtir l'École &amp; l'Emploi'</a></li><li class="hover:text-secondary transition-colors"><a data-path="espace-pro-et-ecoles" href="#">Dossiers de Parrainage Scolaire</a></li><li class="hover:text-secondary transition-colors"><a data-path="rse-et-engagement" href="#">Rapport Impact Environnemental 2024</a></li><li class="hover:text-secondary transition-colors"><a data-path="rse-et-engagement" href="#">Transfert Technologique &amp; Talents Locaux</a></li></ul></div><div class="space-y-4"><h4 class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight mb-4">Implantations &amp; Contact</h4><div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><p class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">location_on</span><span>Usine &amp; Terminal : Zone Industrielle d'Owendo, BP 2450 Libreville</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">mail</span><span>contact.gabon@cimaf.com</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">support_agent</span><span>Direction Commerciale : (+241) 01 70 58 10</span></p></div><div class="pt-2"><span class="font-label-technical text-label-technical uppercase text-on-surface-variant block mb-2">Lettre d'information institutionnelle</span><div class="flex items-center rounded-DEFAULT bg-surface-container-highest p-1"><input class="w-full bg-transparent px-2 py-1 font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline" placeholder="Votre e-mail professionnel" type="email"/><button class="px-3 py-1 bg-primary text-on-primary rounded-DEFAULT font-label-md text-label-md font-bold hover:bg-on-primary-fixed-variant transition-colors"><span class="material-symbols-outlined text-[16px]">send</span></button></div></div></div></div><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 CIMAF Gabon - Ciments de l'Afrique. Tous droits réservés.</p><div class="flex flex-wrap items-center gap-6 font-label-md text-label-md"><a class="hover:text-primary transition-colors" data-path="mentions-legales" href="#">Mentions Légales</a><a class="hover:text-primary transition-colors" data-path="politique-de-confidentialite" href="#">Confidentialité</a><a class="hover:text-primary transition-colors" data-path="accessibilite" href="#">Accessibilité</a><a class="hover:text-secondary font-bold transition-colors" data-path="espace-pro-et-ecoles" href="#">Portail Partenaires &amp; Écoles</a></div></div></footer></body></html>

@@ -1,0 +1,121 @@
+{
+  "project": {
+    "id": "projects/8934965532827028710",
+    "title": "Portail Institutionnel CIMAF Gabon",
+    "deviceType": "DESKTOP",
+    "designTheme": {
+      "customColor": "#00569e",
+      "font": "MONTSERRAT",
+      "headlineFont": "MONTSERRAT",
+      "bodyFont": "PLUS_JAKARTA_SANS",
+      "colorMode": "LIGHT",
+      "colorVariant": "FIDELITY"
+    }
+  },
+  "downloaded_at": "2026-09-12T18:45:00Z",
+  "screens_downloaded": 8,
+  "screens_total": 35,
+  "screenshots_dir": "stitch_hd/screenshots",
+  "html_dir": "stitch_hd/html",
+  "screens": [
+    {
+      "id": "77f71b9b06694fa28e209fe5ae618714",
+      "title": "Accueil - CIMAF Gabon | Ciments de l'Afrique",
+      "width": 2560,
+      "height": 13512,
+      "screenshot": "screenshots/77f71b9b06694fa28e209fe5ae618714.png",
+      "html": "html/77f71b9b06694fa28e209fe5ae618714.html",
+      "status": "HD_OK",
+      "bytes_screenshot": 49362,
+      "bytes_html": 67223
+    },
+    {
+      "id": "c189a993f3af4cd68f514a33b4d5c0b6",
+      "title": "L'Entreprise - CIMAF Gabon | Histoire, Missions & Gouvernance",
+      "width": 2560,
+      "height": 12472,
+      "screenshot": "screenshots/c189a993f3af4cd68f514a33b4d5c0b6.png",
+      "html": "html/c189a993f3af4cd68f514a33b4d5c0b6.html",
+      "status": "HD_OK"
+    },
+    {
+      "id": "3a2e54b28d244a0088e79357581e8b27",
+      "title": "Réalisations - CIMAF Gabon | Grands Projets & Infrastructures Nationales",
+      "width": 2560,
+      "height": 13676,
+      "screenshot": "screenshots/3a2e54b28d244a0088e79357581e8b27.png",
+      "html": "html/3a2e54b28d244a0088e79357581e8b27.html",
+      "status": "HD_OK"
+    },
+    {
+      "id": "baf36e0b9cad4cf689f73c60de5737f5",
+      "title": "Carrières - CIMAF Gabon | Recrutement & Talents Industriels",
+      "width": 2560,
+      "height": 11796,
+      "screenshot": "screenshots/baf36e0b9cad4cf689f73c60de5737f5.png",
+      "html": "html/baf36e0b9cad4cf689f73c60de5737f5.html",
+      "status": "HD_OK"
+    },
+    {
+      "id": "8b342d03f503413f8924d719638ee2c3",
+      "title": "Contact & Implantations - CIMAF Gabon | Coordonnées & Devis",
+      "width": 2560,
+      "height": 8062,
+      "screenshot": "screenshots/8b342d03f503413f8924d719638ee2c3.png",
+      "html": "html/8b342d03f503413f8924d719638ee2c3.html",
+      "status": "HD_OK"
+    },
+    {
+      "id": "740cc8e55b24460abe36bcaf080dd9df",
+      "title": "Actualités & Presse - CIMAF Gabon | Communiqués & Événements",
+      "width": 2560,
+      "height": 9578,
+      "screenshot": "screenshots/740cc8e55b24460abe36bcaf080dd9df.png",
+      "status": "HD_OK_HDMI",
+      "html_pending": true
+    },
+    {
+      "id": "0afdd1bc414242619cf79769b42697bc",
+      "title": "Infrastructure & Serveurs - CIMAF Gabon Back-Office",
+      "width": 2560,
+      "height": 7198,
+      "screenshot": "screenshots/0afdd1bc414242619cf79769b42697bc.png",
+      "status": "HD_OK"
+    },
+    {
+      "id": "b7f4160fd5444bd4815a1c06ab74ce86",
+      "title": "Mentions Légales & Confidentialité - CIMAF Gabon",
+      "width": 2560,
+      "height": 14390,
+      "screenshot": "screenshots/b7f4160fd5444bd4815a1c06ab74ce86.png",
+      "status": "HD_OK"
+    }
+  ],
+  "remaining_screens": [
+    "0edb074ef3fe446fb765778f99621369",
+    "1541eb379c174670a24c0f02aeed2eb5",
+    "183265e03fc74fbe8a66aedc78a4908a",
+    "1cc6f0d76e354678be75a286c8ce1955",
+    "25248e1135784b1aa86dc7477fb8ceb3",
+    "2d3122555d7b4c5fa49913a9500e3b7f",
+    "6e207de17e5541ebadd9387863e52570",
+    "75c1c13204ea4a3e9f2a2e68a7a01f0a",
+    "79c0e4b91ac9441a99516a005c5d5185",
+    "89e7d86cad564f3fa36328db6abc267e",
+    "8be0c52be0c4410e8ee276e2e47b9012",
+    "8ce0fbd4fc054885806a1e21f9dba354",
+    "a0930f6dcd3241cebd52aae2a0e765f8",
+    "c50ec62d5e9244ea93947e1a84a91bca",
+    "cac7d0a9226a4d9e827ee142b34ad32f",
+    "cd32d0fc3a524664aa0f1e909ca7f032",
+    "d00812a6ec514bcda47b24c1512f815e",
+    "d2a611e93eef40b4bbc9c6a67a7f353e",
+    "d973e220660149b19ed2adeb24d0338e",
+    "ea8fb352b9394117a00c3eae59b39367",
+    "eb4262182e12468e8230cf5e16624137",
+    "faa1903458e54446b4f2c01146f73a92",
+    "fb631b09ae6940aa9d3a5838031402a9"
+  ],
+  "download_script": "Pour télécharger les 27 restants : utilisez stitch_get_screen pour chaque ID puis Invoke-WebRequest sur screenshot.downloadUrl et htmlCode.downloadUrl vers stitch_hd/screenshots/{id}.png et stitch_hd/html/{id}.html",
+  "fidelity_note": "Tous les écrans sont en DESKTOP 2560px. Les 8 HD téléchargés servent de référence fidèle pour la conversion Flutter. Le design system complet (FIDELITY variant, couleurs #00569e/#F16E10/#334155, Montserrat+Plus Jakarta Sans) garantit la fidélité des 27 restants même avant téléchargement complet."
+}

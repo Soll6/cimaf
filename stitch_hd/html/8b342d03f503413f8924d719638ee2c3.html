@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>CIMAF Gabon | Bâtisseur d'Avenir Industriel</title><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-secondary-fixed": "#341100",
+          "on-secondary-fixed-variant": "#783200",
+          "tertiary-container": "#48566b",
+          "background": "#faf8ff",
+          "on-surface": "#131b2e",
+          "on-tertiary-fixed-variant": "#3a485c",
+          "on-surface-variant": "#424751",
+          "surface-container-high": "#e2e7ff",
+          "on-error": "#ffffff",
+          "inverse-primary": "#a5c8ff",
+          "on-secondary": "#ffffff",
+          "on-primary-container": "#acccff",
+          "primary": "#003f76",
+          "tertiary-fixed-dim": "#b9c7e0",
+          "on-tertiary-container": "#bdcbe4",
+          "on-primary-fixed-variant": "#004785",
+          "surface-variant": "#dae2fd",
+          "surface-dim": "#d2d9f4",
+          "surface-tint": "#185fa8",
+          "inverse-on-surface": "#eef0ff",
+          "surface-container-highest": "#dae2fd",
+          "outline-variant": "#c2c6d2",
+          "secondary-fixed": "#ffdbca",
+          "outline": "#727782",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#ffb690",
+          "primary-fixed-dim": "#a5c8ff",
+          "on-primary-fixed": "#001c3a",
+          "on-background": "#131b2e",
+          "primary-container": "#00569e",
+          "surface-container": "#eaedff",
+          "surface-bright": "#faf8ff",
+          "on-tertiary": "#ffffff",
+          "surface-container-lowest": "#ffffff",
+          "on-tertiary-fixed": "#0d1c2f",
+          "secondary-container": "#fd771c",
+          "tertiary": "#313f53",
+          "surface": "#faf8ff",
+          "secondary": "#9d4300",
+          "on-primary": "#ffffff",
+          "surface-container-low": "#f2f3ff",
+          "on-secondary-container": "#5c2400",
+          "primary-fixed": "#d4e3ff",
+          "inverse-surface": "#283044",
+          "error": "#ba1a1a",
+          "tertiary-fixed": "#d5e3fd",
+          "on-error-container": "#93000a"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.125rem",
+          "lg": "0.25rem",
+          "xl": "0.5rem",
+          "full": "0.75rem"
+        },
+        "spacing": {
+          "space-xs": "0.25rem",
+          "gutter": "1.5rem",
+          "space-sm": "0.5rem",
+          "margin-mobile": "1.25rem",
+          "space-xl": "2.5rem",
+          "margin": "3rem",
+          "space-lg": "1.5rem",
+          "gutter-mobile": "1rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-hero": [
+            "Montserrat"
+          ],
+          "headline-sm": [
+            "Montserrat"
+          ],
+          "headline-lg-mobile": [
+            "Montserrat"
+          ],
+          "title-md": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-xl": [
+            "Montserrat"
+          ],
+          "body-sm": [
+            "Plus Jakarta Sans"
+          ],
+          "label-technical": [
+            "Montserrat"
+          ],
+          "body-lg": [
+            "Plus Jakarta Sans"
+          ],
+          "label-md": [
+            "Plus Jakarta Sans"
+          ],
+          "display-hero-mobile": [
+            "Montserrat"
+          ],
+          "label-lg": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-xl-mobile": [
+            "Montserrat"
+          ],
+          "headline-lg": [
+            "Montserrat"
+          ],
+          "body-md": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-md": [
+            "Montserrat"
+          ]
+        },
+        "fontSize": {
+          "display-hero": [
+            "56px",
+            {
+              "lineHeight": "64px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "800"
+            }
+          ],
+          "headline-sm": [
+            "20px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-lg-mobile": [
+            "24px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "700"
+            }
+          ],
+          "title-md": [
+            "18px",
+            {
+              "lineHeight": "26px",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-xl": [
+            "40px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.015em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-sm": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ],
+          "label-technical": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "400"
+            }
+          ],
+          "label-md": [
+            "12px",
+            {
+              "lineHeight": "16px",
+              "letterSpacing": "0.04em",
+              "fontWeight": "600"
+            }
+          ],
+          "display-hero-mobile": [
+            "36px",
+            {
+              "lineHeight": "44px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "800"
+            }
+          ],
+          "label-lg": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-xl-mobile": [
+            "28px",
+            {
+              "lineHeight": "36px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "32px",
+            {
+              "lineHeight": "40px",
+              "fontWeight": "700"
+            }
+          ],
+          "body-md": [
+            "16px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-md": [
+            "24px",
+            {
+              "lineHeight": "32px",
+              "fontWeight": "600"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary text-on-primary py-1.5 px-6 lg:px-12"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between font-label-md text-label-md tracking-wider"><div class="flex items-center gap-6"><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary-fixed text-[16px]">factory</span><span class="tracking-wide">Usine d'Owendo • Franceville • Ntoum</span></span><span class="hidden md:inline-flex items-center gap-1.5 text-surface-container-high"><span class="material-symbols-outlined text-[16px]">call</span><span>+241 11 70 58 00</span></span></div><div class="flex items-center gap-5"><a class="flex items-center gap-1.5 text-on-primary hover:text-secondary-fixed transition-colors" data-path="espace-pro-et-ecoles" href="#"><span class="material-symbols-outlined text-[16px]">school</span><span class="font-label-technical text-label-technical uppercase">Espace Pro &amp; Écoles</span></a><div class="flex items-center rounded-DEFAULT bg-primary-container/60 p-0.5 font-label-technical text-label-technical"><button class="px-2 py-0.5 rounded-DEFAULT bg-surface-container-lowest text-primary font-bold shadow-sm">FR</button><button class="px-2 py-0.5 rounded-DEFAULT text-on-primary hover:text-secondary-fixed transition-colors">EN</button></div></div></div></div><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4"><div class="flex items-center gap-3"><a class="flex items-center gap-3" data-path="accueil" href="#"><img alt="cimaf_logo.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U39UXltmghIxou9DUsz5tnmvHPjCIIKmBSAI-bA4zRtz_rIhAv-AihN6FYzonj4NdPH2I6b5n_3xb8ihFOHTbWly-zMAGYgfZxu_7sxsnKDaxDMeILSwSP67I3CdyHXIMeUYu0lU1kEiM5YAllrYmHJvZZB4xDDeDq2XANyo5Jg2m4g8gSa_OhDcpSc9J1vWrfc18QQsz18meRHwUTBbDJ8XWRTo9pbo6DB7OGtwiyC1NDiOx7vrnEvT_QClKiwJfbTbRDeh9W"/><div class="hidden sm:flex flex-col"><span class="font-headline-sm text-headline-sm font-bold text-primary tracking-tight">CIMAF</span><span class="font-label-technical text-label-technical tracking-widest text-secondary uppercase">Gabon</span></div></a></div><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors py-2 text-primary font-bold" data-path="accueil" href="#">Accueil</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="l-entreprise" href="#">L'Entreprise</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="nos-produits" href="#">Nos Produits</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="realisations" href="#">Réalisations</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="rse-et-engagement" href="#">RSE &amp; Engagement</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="carrieres" href="#">Carrières</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-2" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-3"><a class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-DEFAULT bg-secondary text-on-secondary font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-on-secondary-fixed-variant transition-all shadow-[0_2px_8px_rgba(157,67,0,0.2)]" data-path="programme-ecoles-et-vocations" href="#"><span class="material-symbols-outlined text-[18px]">backpack</span><span>Écoles &amp; Vocations</span></a><a class="hidden lg:inline-flex items-center px-4 py-2 rounded-DEFAULT bg-primary text-on-primary font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-on-primary-fixed-variant transition-all shadow-[0_2px_8px_rgba(0,63,118,0.2)]" data-path="demande-de-devis" href="#">Demande de Devis</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-background min-h-[calc(100vh-320px)]"><div class="flex flex-col w-full">
+<!-- Top Breadcrumb & Hero Minimal Section -->
+<section class="w-full bg-surface-container-low py-8 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto space-y-4">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="accueil" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span>Accueil</span>
+</a>
+<span class="text-outline-variant">/</span>
+<span class="text-primary font-bold">Contact &amp; Implantations</span>
+</nav>
+<div class="space-y-3 pt-2">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-DEFAULT bg-secondary-fixed text-on-secondary-fixed font-label-technical text-label-technical uppercase tracking-wider">
+<span class="material-symbols-outlined text-[14px]">share_location</span>
+<span>Disponibilité &amp; Proximité Territoriale</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary font-extrabold tracking-tight">
+          À Votre Écoute pour Tous Vos Projets Constructifs
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-4xl leading-relaxed">
+          Que vous ayez besoin d'une cotation pour un grand chantier d'infrastructure, d'une assistance technique sur nos formulations de ciment ou d'une information institutionnelle, nos équipes dédiées vous répondent sous 24 heures ouvrées.
+        </p>
+</div>
+</div>
+</section>
+<!-- Quick Access & Direct Departments -->
+<section class="w-full py-10 px-6 lg:px-12 bg-background">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1: Ventes & Vrac -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">local_shipping</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-DEFAULT bg-secondary text-on-secondary font-label-technical text-label-technical uppercase">24h/24 &amp; 7j/7</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">Pôle Ventes &amp; Commandes</h2>
+<p class="font-label-technical text-label-technical uppercase text-on-surface-variant mt-0.5">Vrac • Sacs 50kg • Béton Prêt à l'Emploi</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Traitement prioritaire des cotations pour chantiers BTP nationaux, programmes immobiliers et réseau de distributeurs agréés.
+          </p>
+</div>
+<div class="mt-6 pt-5 space-y-2 bg-surface-container-low p-4 rounded-lg">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">call</span>
+<span class="font-bold">+241 01 70 58 00</span>
+<span class="text-outline">/</span>
+<span class="font-bold">+241 11 70 58 10</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">mail</span>
+<a class="hover:text-primary transition-colors font-medium" href="mailto:commercial.gabon@cimaf.com">commercial.gabon@cimaf.com</a>
+</div>
+</div>
+</div>
+<!-- Card 2: Assistance Technique & Labo -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">biotech</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-DEFAULT bg-surface-container-high text-primary font-label-technical text-label-technical uppercase">Laboratoire Owendo</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">Assistance &amp; Laboratoire</h2>
+<p class="font-label-technical text-label-technical uppercase text-on-surface-variant mt-0.5">Formulations • Résistance Mécanique</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Ingénieurs chimistes et techniciens pour essais d'écrasement, études de formulation et adaptation aux agrégats locaux.
+          </p>
+</div>
+<div class="mt-6 pt-5 space-y-2 bg-surface-container-low p-4 rounded-lg">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">lab_profile</span>
+<span class="font-medium">Certification continue NM 10.1.004</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">mail</span>
+<a class="hover:text-primary transition-colors font-medium" href="mailto:assistance.technique@cimaf.com">assistance.technique@cimaf.com</a>
+</div>
+</div>
+</div>
+<!-- Card 3: RSE & Écoles -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined text-[26px]">school</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-DEFAULT bg-secondary-fixed-dim text-on-secondary-fixed font-label-technical text-label-technical uppercase">Impact Citoyen</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">RSE, Écoles &amp; Médias</h2>
+<p class="font-label-technical text-label-technical uppercase text-on-surface-variant mt-0.5">Visites Techniques • Parrainages</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Guichet ouvert pour les universités, lycées techniques, collectivités territoriales et médias économiques.
+          </p>
+</div>
+<div class="mt-6 pt-5 space-y-2 bg-surface-container-low p-4 rounded-lg">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">diversity_3</span>
+<span class="font-medium">Programme "Bâtir l'École &amp; l'Emploi"</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">mail</span>
+<a class="hover:text-primary transition-colors font-medium" href="mailto:rse-ecoles@cimaf.com">rse-ecoles@cimaf.com</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Split Section: Form & Strategic Sites -->
+<section class="w-full py-8 px-6 lg:px-12 bg-background">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+<!-- Left Column (7 cols): Quotation & Contact Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-8 lg:p-10 rounded-xl shadow-md space-y-8">
+<div class="space-y-2">
+<div class="flex items-center gap-2 text-secondary font-label-technical text-label-technical uppercase">
+<span class="material-symbols-outlined text-[18px]">assignment_turned_in</span>
+<span>Transmission Directe aux Équipes d'Owendo</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold tracking-tight">Formulaire de Demande Officielle &amp; Cotation</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Remplissez ce formulaire pour initier une démarche commerciale, technique ou institutionnelle certifiée conforme.
+          </p>
+</div>
+<form class="space-y-6" id="contactForm" onsubmit="event.preventDefault(); submitInquiry();">
+<!-- Department Selector -->
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="subjectSelect">
+              Objet de votre sollicitation <span class="text-secondary">*</span>
+</label>
+<div class="relative">
+<select class="w-full h-11 px-4 rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all appearance-none cursor-pointer" id="subjectSelect" required="">
+<option disabled="" selected="" value="">Veuillez sélectionner le motif...</option>
+<option value="devis-btp">Demande de Devis / Gros Volume BTP &amp; Vrac</option>
+<option value="info-produit">Information Produit / Fiches Techniques &amp; Essais</option>
+<option value="laboratoire">Support Technique Laboratoire &amp; Formulation Béton</option>
+<option value="partenariat-ecole">Partenariat Scolaire / Visite Usine d'Owendo</option>
+<option value="rh">Ressources Humaines &amp; Recrutement</option>
+<option value="autre">Autre demande institutionnelle</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 text-on-surface-variant pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Identity Fields -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="fullName">Nom complet <span class="text-secondary">*</span></label>
+<input class="w-full h-11 px-4 rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all placeholder:text-outline" id="fullName" placeholder="Ex: Marc Ndong MBA" required="" type="text"/>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="companyName">Entreprise ou Établissement <span class="text-secondary">*</span></label>
+<input class="w-full h-11 px-4 rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all placeholder:text-outline" id="companyName" placeholder="Ex: SOBEA Gabon / Lycée Mabignath" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="roleJob">Fonction / Titre</label>
+<input class="w-full h-11 px-4 rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all placeholder:text-outline" id="roleJob" placeholder="Directeur Travaux, Acheteur, Enseignant" type="text"/>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="workEmail">Email professionnel <span class="text-secondary">*</span></label>
+<input class="w-full h-11 px-4 rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all placeholder:text-outline" id="workEmail" placeholder="nom@entreprise.ga" required="" type="email"/>
+</div>
+</div>
+<!-- Phone & WhatsApp -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="phoneNum">Numéro WhatsApp / Téléphone <span class="text-secondary">*</span></label>
+<div class="flex items-center">
+<span class="px-3 h-11 bg-surface-container text-on-surface-variant font-label-md text-label-md flex items-center rounded-l-DEFAULT">+241</span>
+<input class="w-full h-11 px-4 rounded-r-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all placeholder:text-outline" id="phoneNum" placeholder="06x xx xx xx" required="" type="tel"/>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="locationProvince">Localité / Province du chantier</label>
+<div class="relative">
+<select class="w-full h-11 px-4 rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all appearance-none cursor-pointer" id="locationProvince">
+<option value="estuaire">Estuaire (Libreville, Owendo, Ntoum)</option>
+<option value="haut-ogooue">Haut-Ogooué (Franceville, Moanda)</option>
+<option value="ogooue-maritime">Ogooué-Maritime (Port-Gentil)</option>
+<option value="moyen-ogooue">Moyen-Ogooué (Lambaréné)</option>
+<option value="woleu-ntem">Woleu-Ntem (Oyem, Bitam)</option>
+<option value="ngounie">Ngounié (Mouila)</option>
+<option value="nyanga">Nyanga (Tchibanga)</option>
+<option value="ogooue-ivindo">Ogooué-Ivindo (Makokou)</option>
+<option value="ogooue-lolo">Ogooué-Lolo (Koulamoutou)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 text-on-surface-variant pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Product specifics (Tonnage & Formulation) -->
+<div class="p-4 bg-surface-container-low rounded-lg space-y-4">
+<div class="flex items-center gap-2 text-primary font-label-technical text-label-technical uppercase">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Spécifications Ciment / Logistique BTP</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface font-medium block" for="cementType">Formulation préconisée</label>
+<select class="w-full h-10 px-3 rounded-DEFAULT bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none" id="cementType">
+<option value="cem-ii-425">CEM II/B-M 42.5N (Ouvrages d'art &amp; Haute résistance)</option>
+<option value="cem-iii-lh">CEM III/A 42.5N LH (Hydraulique, Milieu Marin, Barrages)</option>
+<option value="cem-ii-325">CEM II/B-M 32.5N (Maçonnerie courante &amp; Préfabrication)</option>
+<option value="undetermined">Besoin d'un conseil d'ingénierie / Non défini</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface font-medium block" for="volumeTons">Volume estimatif envisagé</label>
+<input class="w-full h-10 px-3 rounded-DEFAULT bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none placeholder:text-outline" id="volumeTons" placeholder="Ex: 120 Tonnes / Mois ou 500 sacs" type="text"/>
+</div>
+</div>
+</div>
+<!-- Message -->
+<div class="space-y-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold block" for="messageBody">Détails de la demande / Cahier des charges <span class="text-secondary">*</span></label>
+<textarea class="w-full p-4 rounded-DEFAULT bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest transition-all placeholder:text-outline" id="messageBody" placeholder="Décrivez votre calendrier de livraison, contraintes de dépotage ou l'objectif pédagogique de votre visite..." required="" rows="4"></textarea>
+</div>
+<!-- Opt-in Checkbox -->
+<div class="flex items-start gap-3 pt-1">
+<input class="mt-1 h-4 w-4 rounded-DEFAULT text-primary focus:ring-0 cursor-pointer" id="consentCheck" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface-variant cursor-pointer" for="consentCheck">
+              J'accepte d'être recontacté par le service technico-commercial ou les représentants institutionnels de CIMAF Gabon dans le cadre strict de cette requête.
+            </label>
+</div>
+<!-- Submit Button & Feedbacks -->
+<div class="pt-2">
+<button class="w-full py-4 px-8 rounded-DEFAULT bg-primary text-on-primary font-label-lg text-label-lg font-bold uppercase tracking-wider hover:bg-on-primary-fixed-variant transition-all shadow-md flex items-center justify-center gap-3" type="submit">
+<span>Envoyer ma demande officielle</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<p class="hidden mt-3 text-center text-primary font-label-md text-label-md font-semibold bg-surface-container-high p-3 rounded-DEFAULT" id="submissionFeedback">
+              ✓ Requête enregistrée. Référence de suivi générée. Notre équipe d'Owendo prend contact sous 24h ouvrées.
+            </p>
+</div>
+</form>
+</div>
+<!-- Right Column (5 cols): Strategic Sites & Operational Pillars -->
+<div class="lg:col-span-5 space-y-6">
+<!-- Section Header -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm space-y-2">
+<div class="flex items-center gap-2 text-primary font-label-technical text-label-technical uppercase">
+<span class="material-symbols-outlined text-[18px]">factory</span>
+<span>Maillage Industriel Souverain</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">Nos 3 Sites Stratégiques</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Une couverture logistique multimodale connectée au chemin de fer Transgabonais et aux dessertes maritimes du Golfe de Guinée.
+          </p>
+</div>
+<!-- Site 1: Owendo (Primary Hub) -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all space-y-4">
+<div class="flex items-start justify-between">
+<div>
+<span class="px-2 py-0.5 rounded-DEFAULT bg-primary-fixed text-on-primary-fixed font-label-technical text-label-technical uppercase">Site Principal</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">Usine &amp; Terminal d'Owendo</h3>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">precision_manufacturing</span>
+</div>
+</div>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">location_on</span>
+<span>Zone Industrielle Portuaire d'Owendo, BP 2450 Libreville - Gabon</span>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">call</span>
+<span class="font-medium text-on-surface">+241 11 70 58 00 / +241 01 70 58 10</span>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">directions_boat</span>
+<span>Quai maritime privatif &amp; embranchement ferroviaire direct</span>
+</p>
+</div>
+<div class="pt-2">
+<span class="inline-flex items-center gap-1 text-primary font-label-technical text-label-technical uppercase bg-surface-container px-2.5 py-1 rounded-DEFAULT">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+<span>Capacité annuelle : 1 000 000 Tonnes</span>
+</span>
+</div>
+</div>
+<!-- Site 2: Franceville Depot -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all space-y-4">
+<div class="flex items-start justify-between">
+<div>
+<span class="px-2 py-0.5 rounded-DEFAULT bg-surface-container text-on-surface-variant font-label-technical text-label-technical uppercase">Antenne Intérieure</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">Dépôt Régional de Franceville</h3>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">warehouse</span>
+</div>
+</div>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">location_on</span>
+<span>Plateau de Franceville, Province du Haut-Ogooué</span>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">call</span>
+<span class="font-medium text-on-surface">+241 11 77 12 30</span>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">train</span>
+<span>Approvisionnement cadencé par wagons-trémies SETRAG</span>
+</p>
+</div>
+</div>
+<!-- Site 3: Ntoum Logistics -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-all space-y-4">
+<div class="flex items-start justify-between">
+<div>
+<span class="px-2 py-0.5 rounded-DEFAULT bg-surface-container text-on-surface-variant font-label-technical text-label-technical uppercase">Relais Routier</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">Plateforme Logistique de Ntoum</h3>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">alt_route</span>
+</div>
+</div>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">location_on</span>
+<span>Route Nationale 1, PK 38 - Hub Express BTP</span>
+</p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">schedule</span>
+<span>Chargement continu 24h/24 pour camions gros porteurs</span>
+</p>
+</div>
+</div>
+<!-- Reassurance Banner -->
+<div class="bg-primary p-6 rounded-xl text-on-primary space-y-3 shadow-md">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-on-secondary shrink-0">
+<span class="material-symbols-outlined text-[22px]">security</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg font-bold">Garanties &amp; Traçabilité CIMAF</h4>
+<p class="font-label-technical text-label-technical uppercase text-surface-container-high">Engagement d'excellence industrielle</p>
+</div>
+</div>
+<ul class="space-y-2 pt-1 font-body-sm text-body-sm text-surface-container-high">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">task_alt</span>
+<span>Réponse officielle sous 24h ouvrées garantie.</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">task_alt</span>
+<span>Livraison vrac par camions-citernes plombés et certifiés.</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">task_alt</span>
+<span>Bordereau d'analyse physico-chimique fourni par lot.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Map & Access Protocol Section -->
+<section class="w-full py-12 px-6 lg:px-12 bg-surface-container-low">
+<div class="max-w-7xl mx-auto space-y-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="space-y-2">
+<span class="font-label-technical text-label-technical uppercase text-secondary font-bold">Plan d'Accès &amp; Signalétique Chantier</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold">Usine d'Owendo : Accès &amp; Sécurité Industrielle</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Liaison fluide depuis l'axe principal Libreville-Owendo. Merci de vous présenter au poste de garde avec vos équipements de protection individuelle.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-DEFAULT bg-surface-container-lowest text-primary font-label-md text-label-md font-bold uppercase shadow-sm hover:bg-surface-container transition-colors shrink-0" href="#contactForm">
+<span class="material-symbols-outlined text-[18px]">navigation</span>
+<span>Demander un laissez-passer</span>
+</a>
+</div>
+<!-- Map Display + Instructions Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-surface-container-lowest p-4 lg:p-6 rounded-xl shadow-sm">
+<!-- Visual Static Map Element (8 cols) -->
+<div class="lg:col-span-8 overflow-hidden rounded-lg min-h-[380px] relative bg-surface-container flex flex-col justify-end p-6">
+<div class="absolute inset-0 w-full h-full bg-cover bg-center" data-location="Zone Industrielle Owendo, Libreville, Gabon" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAozb20p8QTA320Sf6TSPJIKIb9XbtvPGmfzxYatHjPUCPvHE7-H8AmKEEKvH_MvoCCMyF-APCgsF8X3g_Rl3Kx62MDntpPCHv-Zh7AwQbr0B-rCUVfPO9ahCMu7-XdU3OkIc9vDglatBoFy_XP1oTXUnYSehxGTeUAoqog0C-Db9xdaaWxgRuA3lsmOT5xY98Yf78NqJ-e2V9-2TiqtkoFU6TnPbM5jY6wfoNrKKvqI6Sfe_IqtyXx')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/40 to-transparent"></div>
+<!-- On-Map Floating Card -->
+<div class="relative z-10 bg-surface-container-lowest/95 backdrop-blur-sm p-4 rounded-lg max-w-md shadow-md space-y-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-technical text-label-technical uppercase text-primary font-bold">Repère GPS Précis</span>
+</div>
+<p class="font-body-sm text-body-sm font-semibold text-on-surface">Usine CIMAF Owendo • Rond-Point du Port Minéralier</p>
+<p class="font-label-technical text-label-technical text-on-surface-variant">0°17'44.2"N 9°29'58.6"E • Accès direct voie poids lourds</p>
+</div>
+</div>
+<!-- Protocol & Safety Requirements (4 cols) -->
+<div class="lg:col-span-4 flex flex-col justify-between space-y-6 p-2">
+<div class="space-y-4">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">verified_user</span>
+<span>Protocole d'Accès Sécurisé</span>
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              En application stricte de la politique QHSE de CIMAF Gabon, tout visiteur, chauffeur ou délégataire scolaire doit obligatoirement être muni des Équipements de Protection Individuelle (EPI) suivants :
+            </p>
+<div class="space-y-3 pt-2">
+<div class="flex items-center gap-3 p-2.5 rounded-DEFAULT bg-surface-container-low">
+<span class="material-symbols-outlined text-primary text-[20px]">autorenew</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Casque de chantier normalisé (fourni si visite)</span>
+</div>
+<div class="flex items-center gap-3 p-2.5 rounded-DEFAULT bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-[20px]">safety_check</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Gilet haute visibilité rétro-réfléchissant</span>
+</div>
+<div class="flex items-center gap-3 p-2.5 rounded-DEFAULT bg-surface-container-low">
+<span class="material-symbols-outlined text-primary text-[20px]">footprint</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Chaussures de sécurité coquées obligatoires</span>
+</div>
+</div>
+</div>
+<div class="p-4 bg-secondary-fixed rounded-DEFAULT space-y-1 text-on-secondary-fixed">
+<span class="font-label-technical text-label-technical uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">info</span>
+<span>Pièce d'Identité Requise</span>
+</span>
+<p class="font-body-sm text-body-sm text-on-secondary-fixed-variant">
+              CNI gabonaise, passeport ou badge entreprise à déposer impérativement au poste de contrôle principal.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section (Accordions) -->
+<section class="w-full py-16 px-6 lg:px-12 bg-background">
+<div class="max-w-4xl mx-auto space-y-8">
+<div class="text-center space-y-2">
+<span class="font-label-technical text-label-technical uppercase text-secondary font-bold">Transparence &amp; Réponses Immédiates</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold">Foire Aux Questions Fréquentes</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Trouvez en quelques secondes les réponses aux interrogations régulières des entreprises et partenaires.
+        </p>
+</div>
+<!-- FAQ Accordion Container -->
+<div class="space-y-4">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="w-full p-6 text-left flex items-center justify-between gap-4 font-headline-sm text-headline-sm text-primary font-bold hover:bg-surface-container-low transition-colors" onclick="toggleFaq(1)" type="button">
+<span>Quels sont les délais habituels de livraison pour le ciment en vrac ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" id="faq-icon-1">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 pt-2 font-body-md text-body-md text-on-surface-variant border-t-0 space-y-2 bg-surface-container-low/30" id="faq-ans-1">
+<p>
+              Pour les chantiers situés dans le Grand Libreville et la province de l'Estuaire, nous assurons des rotations par camions-citernes sous un délai standard de <strong>12 à 24 heures</strong> après validation du bon de commande.
+            </p>
+<p>
+              Pour l'intérieur du pays (Franceville, Moanda, Lambaréné), les expéditions ferroviaires via le Transgabonais ou les convois routiers sont organisés sous un délai moyen de <strong>48 à 72 heures ouvrées</strong>, avec suivi télématique en temps réel.
+            </p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="w-full p-6 text-left flex items-center justify-between gap-4 font-headline-sm text-headline-sm text-primary font-bold hover:bg-surface-container-low transition-colors" onclick="toggleFaq(2)" type="button">
+<span>Comment obtenir un certificat de conformité NF EN 197-1 pour un lot spécifique ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" id="faq-icon-2">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 pt-2 font-body-md text-body-md text-on-surface-variant border-t-0 space-y-2 bg-surface-container-low/30" id="faq-ans-2">
+<p>
+              Chaque livraison de ciment CIMAF Gabon est associée à un numéro de lot unique inscrit sur les bordereaux d'expédition et les sacs de 50 kg. Notre laboratoire central d'Owendo délivre gratuitement le procès-verbal d'analyses physico-chimiques (résistance à la compression à 2, 7 et 28 jours, teneur en sulfates, début de prise).
+            </p>
+<p>
+              Il vous suffit d'envoyer votre numéro de bon de livraison par courriel à <strong>assistance.technique@cimaf.com</strong> ou de le formuler via le formulaire ci-dessus.
+            </p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="w-full p-6 text-left flex items-center justify-between gap-4 font-headline-sm text-headline-sm text-primary font-bold hover:bg-surface-container-low transition-colors" onclick="toggleFaq(3)" type="button">
+<span>Un particulier peut-il acheter directement du ciment à l'usine d'Owendo ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" id="faq-icon-3">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 pt-2 font-body-md text-body-md text-on-surface-variant border-t-0 space-y-2 bg-surface-container-low/30" id="faq-ans-3">
+<p>
+              L'accès à l'usine d'Owendo est réservé aux chargements de gros volumes industriels (minimum 1 palette, soit 40 sacs ou 2 tonnes, ou enlèvement vrac en citerne).
+            </p>
+<p>
+              Pour l'achat au détail au sac pour des travaux résidentiels personnels, nous vous orientons vers notre réseau officiel de <strong>quincailleries et dépôts distributeurs partenaires agréés</strong>, répartis dans tous les quartiers de Libreville, Akanda, Owendo et dans l'ensemble des 9 provinces du Gabon.
+            </p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-lg shadow-sm overflow-hidden">
+<button class="w-full p-6 text-left flex items-center justify-between gap-4 font-headline-sm text-headline-sm text-primary font-bold hover:bg-surface-container-low transition-colors" onclick="toggleFaq(4)" type="button">
+<span>Comment inscrire une école ou un lycée pour une visite guidée d'usine ?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200" id="faq-icon-4">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 pt-2 font-body-md text-body-md text-on-surface-variant border-t-0 space-y-2 bg-surface-container-low/30" id="faq-ans-4">
+<p>
+              Dans le cadre de notre engagement sociétal <em>"Bâtir l'École &amp; les Vocations"</em>, CIMAF Gabon accueille chaque mois des classes d'écoles techniques, collèges et universités pour des parcours pédagogiques au cœur du broyeur, du laboratoire et de la salle de contrôle.
+            </p>
+<p>
+              Remplissez notre formulaire en sélectionnant l'objet <em>"Partenariat Scolaire / Visite Usine"</em> au minimum 15 jours à l'avance en précisant l'effectif des élèves et l'objectif pédagogique. Notre équipe RSE prendra en charge les modalités d'accueil et les équipements de sécurité.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final Fast-Action Footer Contact Bar -->
+<section class="w-full py-8 px-6 lg:px-12 bg-primary text-on-primary">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-on-secondary shrink-0">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold">Besoin d'un accompagnement direct ?</h3>
+<p class="font-body-sm text-body-sm text-surface-container-high">Nos conseillers techniques d'Owendo sont à votre écoute par téléphone de 07h30 à 17h30.</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<a class="px-5 py-2.5 rounded-DEFAULT bg-surface-container-lowest text-primary font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-surface-container-high transition-colors" href="tel:+24111705800">
+          +241 11 70 58 00
+        </a>
+<a class="px-5 py-2.5 rounded-DEFAULT bg-secondary text-on-secondary font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-on-secondary-fixed-variant transition-colors" href="mailto:commercial.gabon@cimaf.com">
+          Écrire à la direction commerciale
+        </a>
+</div>
+</div>
+</section>
+<script>
+    function toggleFaq(index) {
+      const answer = document.getElementById('faq-ans-' + index);
+      const icon = document.getElementById('faq-icon-' + index);
+      if (answer.classList.contains('hidden')) {
+        answer.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        answer.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    function submitInquiry() {
+      const feedback = document.getElementById('submissionFeedback');
+      feedback.classList.remove('hidden');
+      document.getElementById('contactForm').reset();
+      setTimeout(() => {
+        feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface pt-16 pb-8 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12"><div class="space-y-4"><div class="flex items-center gap-2"><span class="font-headline-md text-headline-md font-extrabold text-primary">CIMAF</span><span class="font-label-technical text-label-technical tracking-widest text-secondary uppercase bg-secondary-fixed px-2 py-0.5 rounded-DEFAULT">Gabon</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Opérateur industriel de référence depuis 2015, CIMAF Gabon développe des ciments de haute qualité conformes aux normes internationales pour édifier les infrastructures souveraines de la République Gabonaise.</p><div class="pt-2 flex flex-wrap gap-2"><span class="font-label-technical text-label-technical uppercase bg-surface-container-high text-primary px-2 py-1 rounded-DEFAULT">ISO 9001</span><span class="font-label-technical text-label-technical uppercase bg-surface-container-high text-primary px-2 py-1 rounded-DEFAULT">NM 10.1.004</span><span class="font-label-technical text-label-technical uppercase bg-surface-container-high text-primary px-2 py-1 rounded-DEFAULT">Norme EN 197-1</span></div></div><div class="space-y-3"><h4 class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight mb-4">Navigation Industrielle</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a data-path="l-entreprise" href="#">Histoire &amp; Direction Générale</a></li><li class="hover:text-primary transition-colors"><a data-path="nos-produits" href="#">Gamme Ciments (CPJ 35, CPJ 45, CEM II)</a></li><li class="hover:text-primary transition-colors"><a data-path="realisations" href="#">Chantier Barrage de Kinguélé Aval</a></li><li class="hover:text-primary transition-colors"><a data-path="realisations" href="#">Port Minéralier d'Owendo &amp; Transgabonaise</a></li><li class="hover:text-primary transition-colors"><a data-path="carrieres" href="#">Rejoindre nos Équipes Techniques</a></li></ul></div><div class="space-y-3"><h4 class="font-headline-sm text-headline-sm text-secondary font-bold tracking-tight mb-4">RSE &amp; Vocations</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-secondary transition-colors"><a data-path="programme-ecoles-et-vocations" href="#">Charte 'Bâtir l'École &amp; l'Emploi'</a></li><li class="hover:text-secondary transition-colors"><a data-path="espace-pro-et-ecoles" href="#">Dossiers de Parrainage Scolaire</a></li><li class="hover:text-secondary transition-colors"><a data-path="rse-et-engagement" href="#">Rapport Impact Environnemental 2024</a></li><li class="hover:text-secondary transition-colors"><a data-path="rse-et-engagement" href="#">Transfert Technologique &amp; Talents Locaux</a></li></ul></div><div class="space-y-4"><h4 class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight mb-4">Implantations &amp; Contact</h4><div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><p class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">location_on</span><span>Usine &amp; Terminal : Zone Industrielle d'Owendo, BP 2450 Libreville</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">mail</span><span>contact.gabon@cimaf.com</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">support_agent</span><span>Direction Commerciale : (+241) 01 70 58 10</span></p></div><div class="pt-2"><span class="font-label-technical text-label-technical uppercase text-on-surface-variant block mb-2">Lettre d'information institutionnelle</span><div class="flex items-center rounded-DEFAULT bg-surface-container-highest p-1"><input class="w-full bg-transparent px-2 py-1 font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline" placeholder="Votre e-mail professionnel" type="email"/><button class="px-3 py-1 bg-primary text-on-primary rounded-DEFAULT font-label-md text-label-md font-bold hover:bg-on-primary-fixed-variant transition-colors"><span class="material-symbols-outlined text-[16px]">send</span></button></div></div></div></div><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 CIMAF Gabon - Ciments de l'Afrique. Tous droits réservés.</p><div class="flex flex-wrap items-center gap-6 font-label-md text-label-md"><a class="hover:text-primary transition-colors" data-path="mentions-legales" href="#">Mentions Légales</a><a class="hover:text-primary transition-colors" data-path="politique-de-confidentialite" href="#">Confidentialité</a><a class="hover:text-primary transition-colors" data-path="accessibilite" href="#">Accessibilité</a><a class="hover:text-secondary font-bold transition-colors" data-path="espace-pro-et-ecoles" href="#">Portail Partenaires &amp; Écoles</a></div></div></footer></body></html>
