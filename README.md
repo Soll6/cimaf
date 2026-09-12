@@ -1,6 +1,16 @@
-# cimaf_1
+# CIMAF Gabon
 
-A new Flutter project.
+Site web CIMAF Gabon construit avec Flutter.
+
+## Déploiement Vercel
+
+Le projet est configuré pour Vercel avec `vercel.json`. Chaque push sur `main`
+déclenche automatiquement `scripts/vercel-build.sh`, qui construit la version
+web dans `build/web`.
+
+Dans Vercel, importe le dépôt GitHub `Soll6/cimaf`, sélectionne la branche
+`main`, puis laisse les réglages de build détectés automatiquement. Le domaine
+sera ensuite disponible dans l’onglet **Domains** du projet.
 
 ## Getting Started
 
